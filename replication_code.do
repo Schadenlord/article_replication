@@ -1,14 +1,11 @@
 
-clear
+clear all
 capture log close
 
 global adate "2023-10-20" /* Update for today's date */
 
-*Setting global directory for file code*
-global dir "C:\Dropbox\Institutional Memory\"  /*name the path where you saved the replication data file and where you want results to be saved*/
-
 /*new dataset*/
-use "$dir\Data\replication data.dta"
+use "replication data.dta"
 
 
 xtset countrycode year /*declares what is t and what is i*/

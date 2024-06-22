@@ -5,41 +5,30 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[SOBRENOME data]{exemplo_dissertacao}
-\abntrefinfo{SOBRENOME}{SOBRENOME}{dataa}
-{SOBRENOME, Prenome do~Autor.
-\textbf{Título de obra}: subtítulo (se houver).
-Disserta\c{c}\~{a}o (Mestrado) --- Vinculação acadêmica, local de
-  apresentação/defesa, data. Descrição física.
-Dispon{\'\i}vel em: \url{http://www.udesc.br/cct}. Acesso em: 10 nov. 2020.}
+\bibitem[Calcagno et al. 2024]{https://doi.org/10.1111/coep.12635}
+\abntrefinfo{Calcagno et al.}{CALCAGNO et al.}{2024}
+{CALCAGNO, Peter et al. Political systems, regime memory, and economic freedom.
+\textbf{Contemporary Economic Policy}, v.~42, n.~2, p. 336--354, 2024.
+Dispon{\'\i}vel em:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/coep.12635}.}
 
-\bibitem[SOBRENOME data]{exemplo_tese}
-\abntrefinfo{SOBRENOME}{SOBRENOME}{datab}
-{SOBRENOME, Prenome do~Autor.
-\textbf{Título de obra}: subtítulo (se houver).
-Tese (Doutorado) --- Vinculação acadêmica, local de apresentação/defesa,
-  data. Descrição física.
-Dispon{\'\i}vel em: \url{http://www.udesc.br/cct}. Acesso em: 10 nov. 2020.}
+\bibitem[{Fraser Institute} 2022]{fraser2022}
+\abntrefinfo{{Fraser Institute}}{{Fraser Institute}}{2022}
+{{Fraser Institute}. \textbf{Economic Freedom of the World: 2022 Annual
+  Report}. 2022.
+Dispon{\'\i}vel em:
+  \url{https://www.fraserinstitute.org/studies/economic-freedom-of-the-world-2022-annual-report}.}
 
-\bibitem[SOBRENOME data de publicação]{exemplo_livro}
-\abntrefinfo{SOBRENOME}{SOBRENOME}{data de publicaçãoa}
-{SOBRENOME, Prenome do~Autor. \textbf{Título de obra}: subtítulo (se houver).
-  Número da edição (se houver). Local de publicação: Editora, data de
-  publicação.}
+\bibitem[Gwartney et al. 2022]{gwartney2022}
+\abntrefinfo{Gwartney et al.}{GWARTNEY et al.}{2022}
+{GWARTNEY, James et al. \textbf{Economic Freedom of the World: 2022 Annual
+  Report}. Vancouver, BC: Fraser Institute, 2022. Dispon{\'\i}vel em:
+  \url{https://www.fraserinstitute.org/studies/economic-freedom-of-the-world-2022-annual-report}.}
 
-\bibitem[SOBRENOME data de publicação]{exemplo_livroe}
-\abntrefinfo{SOBRENOME}{SOBRENOME}{data de publicaçãob}
-{SOBRENOME, Prenome do~Autor. \textbf{Título de obra}: subtítulo (se houver).
-  Número da edição (se houver). Local de publicação: Editora, data de
-  publicação. Descrição física. Dispon{\'\i}vel em:
-  \url{http://www.udesc.br/cct}. Acesso em: 10 nov. 2020.}
-
-\bibitem[SOBRENOME data ou período de publicação]{exemplo_artigo}
-\abntrefinfo{SOBRENOME}{SOBRENOME}{data ou período de publicação}
-{SOBRENOME, Prenome do~Autor. Título do artigo: subtítulo (se houver).
-\textbf{Título do periódico}, Local de publicação, numeração do ano e/ou
-  volume, n. número e/ou edição, p. páginas inicial e final, data ou
-  período de publicação.
-Dispon{\'\i}vel em: \url{http://www.udesc.br/cct}. Acesso em: 10 nov. 2020.}
+\bibitem[{Polity IV Project} 2022]{polity2022}
+\abntrefinfo{{Polity IV Project}}{{Polity IV Project}}{2022}
+{{Polity IV Project}. \textbf{Polity IV Project: Political Regime
+  Characteristics and Transitions, 1800-2022}. 2022.
+Dispon{\'\i}vel em: \url{http://www.systemicpeace.org/inscr/p4v2022.pdf}.}
 
 \end{thebibliography}

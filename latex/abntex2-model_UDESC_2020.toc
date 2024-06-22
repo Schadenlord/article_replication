@@ -11,10 +11,13 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Resultados}}{10}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Descrição dos Dados}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}SEÇÃO SECUNDÁRIA}{10}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Seção terciária}{11}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Seção quaternária}{11}{subsubsection.2.2.1.1}%
-\contentsline {paragraph}{\numberline {2.2.1.1.1}Seção quinaria}{11}{paragraph.2.2.1.1.1}%
+\contentsline {section}{\numberline {2.2}Reprodução das tabelas do artigo original}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Reprodução da tabela 3}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Reprodução da tabela 4 }{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Reprodução da tabela 5}{13}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Reprodução da tabela 6}{13}{subsection.2.2.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Conclusão}}{16}{chapter.3}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{15}{section*.17}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{17}{section*.16}%
