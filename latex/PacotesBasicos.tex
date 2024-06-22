@@ -5,7 +5,7 @@
 \usepackage{amssymb}							% Pacote matemático
 \usepackage{amsfonts}							% Pacote matemático
 %\usepackage{lmodern}							% Usa a fonte Latin Modern		
-\usepackage{mathptmx} 							% Usa a fonte Times New Roman	 (UDESC/CCT)
+\usepackage{mathptmx} 							% Usa a fonte Times New Roman	 
 \usepackage[T1]{fontenc}						% Selecao de codigos de fonte.
 \usepackage[utf8]{inputenc}						% Codificacao do documento (conversão automática dos acentos)
 % \usepackage{float}                              % Adiciona o pacote 
@@ -25,7 +25,7 @@
 \usepackage[section]{placeins}					% Manter as figuras delimitadas na respectiva seção com a opção [section]
 \usepackage{multirow}							% Multi colunas nas tabelas
 \usepackage{array,tabularx} 					% Pacotes de tabelas
-\usepackage{booktabs}							% Pacote de tabela profissonal
+\usepackage{booktabs} 							% Pacote de tabela profissonal
 \usepackage{rotating}							% Rotacionar figuras e tabelas
 \usepackage{xfrac}								% Fazer frações n/d em linha
 \usepackage{bm}									% Negrito em modo matemático
@@ -131,7 +131,7 @@
 \sisetup{group-digits = false}
 
 % Personalizações de tipo de colunas de tabelas
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\backslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
