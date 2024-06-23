@@ -70,8 +70,8 @@ As estatísticas descritivas das variáveis foram reproduzidas quase perfeitamen
     \captionsetup{font=small}
     \caption{Tabela 2 do Artigo Original - Estatísticas Descritivas.}
     \label{tab:tabela_descritiva}
-    \scriptsize % Ajusta a fonte para tamanho 10
-    \begin{tabular}{lrrrrrrrr}
+    \small % Ajusta o tamanho da fonte para 10 pontos
+    \begin{tabularx}{\textwidth}{l*{8}{>{\raggedleft\arraybackslash}X}}
         \toprule
         \textbf{Variável} & \textbf{N} & \textbf{Média} & \textbf{Desv. Padrão} & \textbf{Mín.} & \textbf{25\%} & \textbf{50\%} & \textbf{75\%} & \textbf{Máx.} \\
         \midrule
@@ -95,7 +95,7 @@ As estatísticas descritivas das variáveis foram reproduzidas quase perfeitamen
         Coup d'etats & 4477 & 0.04 & 0.21 & 0 & 0 & 0 & 0 & 1 \\
         Gini & 3530 & 39.07 & 8.84 & 20.30 & 32.40 & 39.60 & 45.07 & 65.40 \\
         \bottomrule
-    \end{tabular}
+    \end{tabularx}
     \fonte{Elaborado pelos autores.}
 \end{table}
 
@@ -104,7 +104,7 @@ As estatísticas descritivas das variáveis foram reproduzidas quase perfeitamen
 
 Serão replicadas as tabelas 3, 4, 5 e 6. Estas tabelas os principais resultados das análises empíricas realizadas para investigar a relação entre memória de regime e liberdade econômica. Cada tabela expõe resultados específicos que ajudam a entender como diferentes aspectos dos sistemas políticos e suas mudanças ao longo do tempo influenciam a liberdade econômica em diversos países.
 
-\subsection{Reprodução da tabela 3}
+\subsection{REPRODUÇÃO DA TABELA 3}
 
 A Tabela 3 apresenta os resultados principais da análise empírica, mostrando como a memória de regime e outros fatores econômicos e políticos influenciam a liberdade econômica, medida pelo índice de Liberdade Econômica do Mundo (EFW). A tabela está dividida em quatro colunas, correspondendo a diferentes especificações do modelo e taxas de depreciação (2,5\% e 12,5\%) da variável de memória de regime.
 
@@ -118,30 +118,30 @@ Além da variável principal de interesse (memória de regime), outras variávei
 A Tabela 3, portanto, fornece uma visão detalhada de como a memória de regimes passados, bem como uma série de outros fatores econômicos e políticos, influenciam a liberdade econômica de um país. Esses resultados reforçam a importância da história política na determinação das condições econômicas atuais.
 
 \begin{table}
-	\caption{Tabela 3 do Artigo Original - Resultados principais.}
-	\label{tab:tabela3}
-	\scriptsize
-	\resizebox{\textwidth}{!}{\begin{tabular}{lcccc}
-	\toprule
-	Dependent variable & EFW index-interpolate (2.50\%) & EFW index-interpolate (12.50\%) & EFW index (2.50\%) & EFW index (12.50\%) \\
-	\midrule
-	Regime memory & 0.043 & 0.045 & 0.024 & 0.037 \\
-	Net ODA as \% of GDP & 0.020 & 0.020 & 0.021 & 0.021 \\
-	Resource rent as \% of GDP & -0.023 & -0.021 & -0.028 & -0.024 \\
-	ln(GDP per capita) & 0.492 & 0.499 & 0.476 & 0.468 \\
-	GDP Growth & 0.019 & 0.019 & 0.021 & 0.020 \\
-	War Dummy & -0.234 & -0.209 & -0.195 & -0.200 \\
-	Christian Dummy & -0.143 & -0.185 & 0.029 & -0.051 \\
-	British legal origin & 0.089 & 0.162 & 0.125 & 0.177 \\
-	French legal origin & -0.065 & -0.047 & -0.040 & -0.019 \\
-	Number of observations & 4697 & 4697 & 2534 & 2534 \\
-	R2 & 0.732 & 0.738 & 0.730 & 0.742 \\
-	\bottomrule
-	\end{tabular}}
-	\end{table}
+    \caption{Tabela 3 do Artigo Original - Resultados principais.}
+    \label{tab:tabela3}
+    \small % Ajusta o tamanho da fonte para 10 pontos (que é considerado "small" em LaTeX)
+    \begin{tabularx}{\textwidth}{l*{4}{>{\raggedleft\arraybackslash}X}}
+        \toprule
+        \textbf{Dependent variable} & \makecell[l]{\textbf{EFW index-}\\\textbf{interpolate}\\\textbf{(2.50\%)}} & \makecell[l]{\textbf{EFW index-}\\\textbf{interpolate}\\\textbf{(12.50\%)}} & \makecell[l]{\textbf{EFW}\\\textbf{index}\\\textbf{(2.50\%)}} & \makecell[l]{\textbf{EFW}\\\textbf{index}\\\textbf{(12.50\%)}} \\
+        \midrule
+        Regime memory & 0.043 & 0.045 & 0.024 & 0.037 \\
+        Net ODA as \% of GDP & 0.020 & 0.020 & 0.021 & 0.021 \\
+        Resource rent as \% of GDP & -0.023 & -0.021 & -0.028 & -0.024 \\
+        ln(GDP per capita) & 0.492 & 0.499 & 0.476 & 0.468 \\
+        GDP Growth & 0.019 & 0.019 & 0.021 & 0.020 \\
+        War Dummy & -0.234 & -0.209 & -0.195 & -0.200 \\
+        Christian Dummy & -0.143 & -0.185 & 0.029 & -0.051 \\
+        British legal origin & 0.089 & 0.162 & 0.125 & 0.177 \\
+        French legal origin & -0.065 & -0.047 & -0.040 & -0.019 \\
+        Number of observations & 4697 & 4697 & 2534 & 2534 \\
+        R2 & 0.732 & 0.738 & 0.730 & 0.742 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
 
 
-	\subsection{Reprodução da tabela 4 }
+	\subsection{REPRODUÇÃO DA TABELA 4 }
 
 	A Tabela 4 apresenta os resultados da análise empírica, incluindo controles adicionais para verificar a robustez dos resultados principais encontrados anteriormente. São incluídas duas variáveis de controle adicionais: golpes de estado e coeficiente de Gini. A tabela está dividida em quatro colunas, correspondendo a diferentes especificações do modelo e taxas de depreciação (2,5\% e 12,5\%) da variável de memória de regime.
 
@@ -155,30 +155,30 @@ A Tabela 3, portanto, fornece uma visão detalhada de como a memória de regimes
 	\begin{table}
 		\caption{Tabela 4 do Artigo Original - Controles adicionais.}
 		\label{tab:tabela4}
-		\scriptsize
-		\resizebox{\textwidth}{!}{\begin{tabular}{lcccc}
-		\toprule
-		Dependent variable & EFW index-interpolate (2.50\%) & EFW index-interpolate (12.50\%) & EFW index (2.50\%) & EFW index (12.50\%) \\
-		\midrule
-		Regime memory & 0.045 & 0.046 & 0.045 & 0.050 \\
-		Net ODA as \% of GDP & 0.021 & 0.021 & 0.021 & 0.022 \\
-		Resource rent as \% of GDP & -0.023 & -0.021 & -0.026 & -0.023 \\
-		ln(GDP per capita) & 0.485 & 0.493 & 0.464 & 0.481 \\
-		GDP Growth & 0.020 & 0.019 & 0.032 & 0.032 \\
-		War Dummy & -0.244 & -0.222 & -0.193 & -0.167 \\
-		Christian Dummy & -0.132 & -0.178 & -0.049 & -0.113 \\
-		British legal origin & 0.077 & 0.156 & 0.061 & 0.148 \\
-		French legal origin & -0.072 & -0.050 & -0.143 & -0.120 \\
-		Coup Dummy & -0.039 & -0.021 & -0.131 & -0.102 \\
-		Gini Disposable & NA & NA & 0.002 & 0.004 \\
-		Number of observations & 4477 & 4477 & 3462 & 3462 \\
-		R2 & 0.727 & 0.733 & 0.714 & 0.724 \\
-		\bottomrule
-		\end{tabular}}
-		\end{table}
+		\small % Ajusta o tamanho da fonte para 10 pontos (que é considerado "small" em LaTeX)
+		\begin{tabularx}{\textwidth}{l*{4}{>{\raggedleft\arraybackslash}X}}
+			\toprule
+			\textbf{Dependent variable} & \makecell[l]{\textbf{EFW index-}\\\textbf{interpolate}\\\textbf{(2.50\%)}} & \makecell[l]{\textbf{EFW index-}\\\textbf{interpolate}\\\textbf{(12.50\%)}} & \makecell[l]{\textbf{EFW}\\\textbf{index}\\\textbf{(2.50\%)}} & \makecell[l]{\textbf{EFW}\\\textbf{index}\\\textbf{(12.50\%)}} \\
+			\midrule
+			Regime memory & 0.045 & 0.046 & 0.045 & 0.050 \\
+			Net ODA as \% of GDP & 0.021 & 0.021 & 0.021 & 0.022 \\
+			Resource rent as \% of GDP & -0.023 & -0.021 & -0.026 & -0.023 \\
+			ln(GDP per capita) & 0.485 & 0.493 & 0.464 & 0.481 \\
+			GDP Growth & 0.020 & 0.019 & 0.032 & 0.032 \\
+			War Dummy & -0.244 & -0.222 & -0.193 & -0.167 \\
+			Christian Dummy & -0.132 & -0.178 & -0.049 & -0.113 \\
+			British legal origin & 0.077 & 0.156 & 0.061 & 0.148 \\
+			French legal origin & -0.072 & -0.050 & -0.143 & -0.120 \\
+			Coup Dummy & -0.039 & -0.021 & -0.131 & -0.102 \\
+			Gini Disposable & NA & NA & 0.002 & 0.004 \\
+			Number of observations & 4477 & 4477 & 3462 & 3462 \\
+			R2 & 0.727 & 0.733 & 0.714 & 0.724 \\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
 
 
-		\subsection{Reprodução da tabela 5}
+		\subsection{REPRODUÇÃO DA TABELA 5}
 
 		A Tabela 5 apresenta os resultados da análise empírica com defasagens de cinco anos, utilizando diferentes especificações do modelo e taxas de depreciação (2,5\% e 12,5\%) da variável de memória de regime. Esta abordagem permite verificar se as variáveis explicativas têm um impacto retardado sobre a liberdade econômica.
 
@@ -190,33 +190,32 @@ A Tabela 3, portanto, fornece uma visão detalhada de como a memória de regimes
 		A Tabela 5, portanto, reforça a robustez dos achados principais ao utilizar defasagens temporais mais longas e restrições de amostra, demonstrando que a memória dos regimes passados continua a ser um determinante significativo da liberdade econômica, mesmo quando consideradas essas novas abordagens metodológicas.
 		
 
-\begin{table}
-	\caption{Tabela 5 do Artigo Original - Defasagens de cinco anos.}
-	\label{tab:tabela5}
-	\small
-	\resizebox{\textwidth}{!}{\begin{tabular}{lcccccc}
-	\toprule
-	Dependent variable & 2.50\% (1) & 12.50\% (2) & 2.50\% (3) & 12.50\% (4) \\
-	\midrule
-	\fontsize{10}{12}
-	Regime memory & 0.040 & 0.048 & 0.041 & 0.047 \\
-	Net ODA as \% of GDP & 0.020 & 0.021 & 0.024 & 0.025 \\
-	Resource rent as \% of GDP & -0.025 & -0.021 & -0.029 & -0.026 \\
-	ln(GDP per capita) & 0.433 & 0.437 & 0.471 & 0.488 \\
-	GDP Growth & 0.028 & 0.028 & 0.029 & 0.030 \\
-	War Dummy & -0.090 & -0.077 & -0.257 & -0.222 \\
-	Christian Dummy & 0.021 & -0.048 & -0.069 & -0.131 \\
-	British legal origin & 0.062 & 0.128 & 0.068 & 0.144 \\
-	French legal origin & -0.175 & -0.151 & -0.138 & -0.121 \\
-	Coup d'etat & -0.097 & -0.062 & -0.212 & -0.145 \\
-	Gini coefficient & -0.002 & -0.000 & 0.002 & 0.003 \\
-	Number of observations & 3097 & 3097 & 727 & 727 \\
-	R2 & 0.689 & 0.703 & 0.714 & 0.724 \\
-	\bottomrule
-	\end{tabular}}
-	\end{table}
+		\begin{table}
+			\caption{Tabela 5 do Artigo Original - Defasagens de cinco anos.}
+			\label{tab:tabela5}
+			\small % Ajusta o tamanho da fonte para 10 pontos (que é considerado "small" em LaTeX)
+			\begin{tabularx}{\textwidth}{l*{4}{>{\raggedleft\arraybackslash}X}}
+				\toprule
+				\textbf{Dependent variable} & \makecell[l]{\textbf{2.50\%}\\\textbf{(1)}} & \makecell[l]{\textbf{12.50\%}\\\textbf{(2)}} & \makecell[l]{\textbf{2.50\%}\\\textbf{(3)}} & \makecell[l]{\textbf{12.50\%}\\\textbf{(4)}} \\
+				\midrule
+				Regime memory & 0.040 & 0.048 & 0.041 & 0.047 \\
+				Net ODA as \% of GDP & 0.020 & 0.021 & 0.024 & 0.025 \\
+				Resource rent as \% of GDP & -0.025 & -0.021 & -0.029 & -0.026 \\
+				ln(GDP per capita) & 0.433 & 0.437 & 0.471 & 0.488 \\
+				GDP Growth & 0.028 & 0.028 & 0.029 & 0.030 \\
+				War Dummy & -0.090 & -0.077 & -0.257 & -0.222 \\
+				Christian Dummy & 0.021 & -0.048 & -0.069 & -0.131 \\
+				British legal origin & 0.062 & 0.128 & 0.068 & 0.144 \\
+				French legal origin & -0.175 & -0.151 & -0.138 & -0.121 \\
+				Coup d'etat & -0.097 & -0.062 & -0.212 & -0.145 \\
+				Gini coefficient & -0.002 & -0.000 & 0.002 & 0.003 \\
+				Number of observations & 3097 & 3097 & 727 & 727 \\
+				R2 & 0.689 & 0.703 & 0.714 & 0.724 \\
+				\bottomrule
+			\end{tabularx}
+		\end{table}
 
-	\subsection{Reprodução da tabela 6}
+	\subsection{REPRODUÇÃO DA TABELA 6}
 
 
 A Tabela 6 apresenta os resultados da análise de robustez em subamostras, utilizando diferentes especificações do modelo e taxas de depreciação (2,5\% e 12,5\%) da variável de memória de regime. A análise de subamostras é realizada para verificar se os resultados se mantêm consistentes em diferentes períodos e amostras de países.
@@ -231,28 +230,29 @@ A Tabela 6, portanto, reforça a robustez dos achados principais ao utilizar dif
 
 
 \begin{table}
-	\caption{Tabela 6 do Artigo Original - Análise de robustez em subamostras.}
-	\label{tab:sub_sample_robustness_check}
-	\resizebox{\textwidth}{!}{\begin{tabular}{lcccccc}
-	\toprule
-	Dependent variable & 11 or more years (2.50\%) & 11 or more years (12.50\%) & 21 or more years (2.50\%) & 21 or more years (12.50\%) & 2000-2015 (2.50\%) & 2000-2015 (12.50\%) \\
-	\midrule
-	Regime memory & 0.047 & 0.051 & 0.050 & 0.051 & 0.012 & 0.030 \\
-	Net ODA as \% of GDP & 0.020 & 0.021 & 0.028 & 0.030 & 0.027 & 0.025 \\
-	Resource rent as \% of GDP & -0.026 & -0.023 & -0.025 & -0.023 & -0.033 & -0.029 \\
-	ln(GDP per capita) & 0.459 & 0.479 & 0.483 & 0.508 & 0.465 & 0.448 \\
-	GDP Growth & 0.034 & 0.033 & 0.035 & 0.034 & 0.025 & 0.025 \\
-	War Dummy & -0.192 & -0.165 & -0.165 & -0.135 & -0.129 & -0.154 \\
-	Christian Dummy & -0.043 & -0.105 & -0.063 & -0.137 & 0.130 & 0.046 \\
-	British legal origin & 0.032 & 0.125 & 0.141 & 0.211 & 0.019 & 0.043 \\
-	French legal origin & -0.154 & -0.129 & -0.085 & -0.091 & -0.127 & -0.119 \\
-	Coup Dummy & -0.126 & -0.100 & -0.124 & -0.095 & -0.136 & -0.128 \\
-	Gini Disposable & 0.003 & 0.004 & 0.003 & 0.005 & 0.007 & 0.008 \\
-	Number of observations & 3368 & 3368 & 3026 & 3026 & 1814 & 1814 \\
-	R2 & 0.715 & 0.726 & 0.722 & 0.729 & 0.697 & 0.708 \\
-	\bottomrule
-	\end{tabular}}
-	\end{table}
+    \caption{Tabela 6 do Artigo Original - Análise de robustez em subamostras.}
+    \label{tab:sub_sample_robustness_check}
+    \small % Ajusta o tamanho da fonte para 10 pontos (que é considerado "small" em LaTeX)
+    \begin{tabularx}{\textwidth}{l*{6}{>{\raggedleft\arraybackslash}X}}
+        \toprule
+        \textbf{Dependent variable} & \makecell[l]{\textbf{11 or more}\\\textbf{years}\\\textbf{(2.50\%)}} & \makecell[l]{\textbf{11 or more}\\\textbf{years}\\\textbf{(12.50\%)}} & \makecell[l]{\textbf{21 or more}\\\textbf{years}\\\textbf{(2.50\%)}} & \makecell[l]{\textbf{21 or more}\\\textbf{years}\\\textbf{(12.50\%)}} & \makecell[l]{\textbf{2000-2015}\\\textbf{(2.50\%)}} & \makecell[l]{\textbf{2000-2015}\\\textbf{(12.50\%)}} \\
+        \midrule
+        Regime memory & 0.047 & 0.051 & 0.050 & 0.051 & 0.012 & 0.030 \\
+        Net ODA as \% of GDP & 0.020 & 0.021 & 0.028 & 0.030 & 0.027 & 0.025 \\
+        Resource rent as \% of GDP & -0.026 & -0.023 & -0.025 & -0.023 & -0.033 & -0.029 \\
+        ln(GDP per capita) & 0.459 & 0.479 & 0.483 & 0.508 & 0.465 & 0.448 \\
+        GDP Growth & 0.034 & 0.033 & 0.035 & 0.034 & 0.025 & 0.025 \\
+        War Dummy & -0.192 & -0.165 & -0.165 & -0.135 & -0.129 & -0.154 \\
+        Christian Dummy & -0.043 & -0.105 & -0.063 & -0.137 & 0.130 & 0.046 \\
+        British legal origin & 0.032 & 0.125 & 0.141 & 0.211 & 0.019 & 0.043 \\
+        French legal origin & -0.154 & -0.129 & -0.085 & -0.091 & -0.127 & -0.119 \\
+        Coup Dummy & -0.126 & -0.100 & -0.124 & -0.095 & -0.136 & -0.128 \\
+        Gini Disposable & 0.003 & 0.004 & 0.003 & 0.005 & 0.007 & 0.008 \\
+        Number of observations & 3368 & 3368 & 3026 & 3026 & 1814 & 1814 \\
+        R2 & 0.715 & 0.726 & 0.722 & 0.729 & 0.697 & 0.708 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
 
 
 \chapter{Conclusão}

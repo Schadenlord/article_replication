@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: abntex2-model_UDESC_2020.aux
+The top-level auxiliary file: Trabalho final.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: PreTextuais/Capa.aux
 Reallocating 'name_of_file' (item size: 1) to 29 items.
@@ -23,6 +23,12 @@ Reallocating 'name_of_file' (item size: 1) to 16 items.
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: PosTextuais/Glossario.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: PosTextuais/Apendices.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: PosTextuais/Anexos.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: PosTextuais/IndiceRemissivo.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: abntex2-alf.bst
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -47,7 +53,7 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 7 entries,
             6714 wiz_defined-function locations,
-            1231 strings with 10362 characters,
+            1234 strings with 10420 characters,
 and the built_in function-call counts, 9781 in all, are:
 = -- 1298
 > -- 113

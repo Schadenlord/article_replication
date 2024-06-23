@@ -20,6 +20,9 @@
 
 %\usepackage[showframe,pass]{geometry}
 %\usepackage[11,12]{pagesel}
+\usepackage{float}
+\usepackage{hyperref}
+
 
 % -----------------------------------------------------------------
 % Informações de dados para CAPA e FOLHA DE ROSTO
@@ -28,7 +31,7 @@
 \titulo{Trabalho final de Econometria III - Replicação do artigo "Political systems, regime memory, and economic freedom"}%
 
 \autor{Bruno Francisco {}Schaden}%
-\orientador{Rafael{} Bressan}%
+\orientador{Rafael Felipe{} Bressan}%
 
 % ATENÇÃO: O símbolo {} indica o sobrenome para a ficha catalográfica.
 % Exemplo: Sherlock Holmes {}da Silva para sobrenomes compostos;
@@ -41,7 +44,7 @@
 
 %\preambulo{Tese apresentada ao Programa de Pós--Graduação em Engenharia Elétrica do Centro de Ciências Tecnológicas da Universidade do Estado de Santa Catarina, como requisito parcial para a obtenção do grau de Doutor em Engenharia Elétrica.}
 
-\preambulo{ Trabalho final de Econometria III, apresentado ao Curso de Ciências Econômicas da Universidade do Estado de Santa Catarina, como requisito parcial para a obtenção da nota da disciplina.}
+\preambulo{Trabalho final de Econometria III, apresentado ao Curso de Ciências Econômicas da Universidade do Estado de Santa Catarina, como requisito parcial para a obtenção da nota da disciplina.}
 
 \local{Florianópolis}%
 
@@ -78,7 +81,7 @@
 \include{PreTextuais/Epigrafe}				% Elemento Opcional
 \include{PreTextuais/Resumo}				% Elemento Obrigatório
 % \include{PreTextuais/Abstract}				% Elemento Obrigatório
-% \include{PreTextuais/Listas}				% Elemento Opcional
+\include{PreTextuais/Listas}				% Elemento Opcional
 \include{PreTextuais/Sumario}				% Elemento Obrigatório
 
 % -----------------------------------------------------------------
@@ -107,10 +110,10 @@
 % Referências bibliográficas
 \bibliography{abntex2-ref_UDESC_2020}	% Elemento Obrigatório
 
-% \include{PosTextuais/Glossario}				% Elemento Opcional
-% \include{PosTextuais/Apendices}				% Elemento Opcional
-% \include{PosTextuais/Anexos}				% Elemento Opcional
-% \include{PosTextuais/IndiceRemissivo}		% Elemento Opcional
+\include{PosTextuais/Glossario}				% Elemento Opcional
+\include{PosTextuais/Apendices}				% Elemento Opcional
+\include{PosTextuais/Anexos}				% Elemento Opcional
+\include{PosTextuais/IndiceRemissivo}		% Elemento Opcional
 
 \end{document}
 

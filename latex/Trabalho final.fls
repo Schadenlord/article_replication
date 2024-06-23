@@ -1,7 +1,7 @@
 PWD c:\Users\guian\Econometria 3\trabalho-final\latex
 INPUT C:\Users\guian\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\guian\Econometria 3\trabalho-final\latex\abntex2-model_UDESC_2020.tex
-OUTPUT abntex2-model_UDESC_2020.log
+INPUT c:\Users\guian\Econometria 3\trabalho-final\latex\Trabalho final.tex
+OUTPUT Trabalho final.log
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
@@ -516,15 +516,17 @@ INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
-OUTPUT abntex2-model_UDESC_2020.pdf
+OUTPUT Trabalho final.pdf
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\libraries\tikzlibraryexternal.code.tex
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\libraries\tikzlibraryexternal.code.tex
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzexternalshared.code.tex
-OUTPUT abntex2-model_UDESC_2020.idx
-INPUT .\abntex2-model_UDESC_2020.aux
-INPUT .\abntex2-model_UDESC_2020.aux
-INPUT abntex2-model_UDESC_2020.aux
+INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+OUTPUT Trabalho final.idx
+INPUT .\Trabalho final.aux
+INPUT .\Trabalho final.aux
+INPUT Trabalho final.aux
 INPUT .\PreTextuais\Capa.aux
 INPUT .\PreTextuais\Capa.aux
 INPUT PreTextuais\Capa.aux
@@ -555,7 +557,16 @@ INPUT Textuais\Capitulo01.aux
 INPUT .\PosTextuais\Glossario.aux
 INPUT .\PosTextuais\Glossario.aux
 INPUT PosTextuais\Glossario.aux
-OUTPUT abntex2-model_UDESC_2020.aux
+INPUT .\PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Apendices.aux
+INPUT PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Anexos.aux
+INPUT .\PosTextuais\Anexos.aux
+INPUT PosTextuais\Anexos.aux
+INPUT .\PosTextuais\IndiceRemissivo.aux
+INPUT .\PosTextuais\IndiceRemissivo.aux
+INPUT PosTextuais\IndiceRemissivo.aux
+OUTPUT Trabalho final.aux
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -667,12 +678,12 @@ OUTPUT PreTextuais\Listas.aux
 INPUT .\PreTextuais\Listas.tex
 INPUT .\PreTextuais\Listas.tex
 INPUT PreTextuais\Listas.tex
-INPUT .\abntex2-model_UDESC_2020.lof
-INPUT .\abntex2-model_UDESC_2020.lof
-INPUT abntex2-model_UDESC_2020.lof
-INPUT .\abntex2-model_UDESC_2020.lot
-INPUT .\abntex2-model_UDESC_2020.lot
-INPUT abntex2-model_UDESC_2020.lot
+INPUT .\Trabalho final.lof
+INPUT .\Trabalho final.lof
+INPUT Trabalho final.lof
+INPUT .\Trabalho final.lot
+INPUT .\Trabalho final.lot
+INPUT Trabalho final.lot
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
@@ -707,9 +718,9 @@ OUTPUT PreTextuais\Sumario.aux
 INPUT .\PreTextuais\Sumario.tex
 INPUT .\PreTextuais\Sumario.tex
 INPUT PreTextuais\Sumario.tex
-INPUT .\abntex2-model_UDESC_2020.toc
-INPUT .\abntex2-model_UDESC_2020.toc
-INPUT abntex2-model_UDESC_2020.toc
+INPUT .\Trabalho final.toc
+INPUT .\Trabalho final.toc
+INPUT Trabalho final.toc
 INPUT .\Textuais\Capitulo01.tex
 INPUT .\Textuais\Capitulo01.tex
 OUTPUT Textuais\Capitulo01.aux
@@ -761,25 +772,43 @@ INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.v
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT .\abntex2-model_UDESC_2020.bbl
-INPUT .\abntex2-model_UDESC_2020.bbl
-INPUT abntex2-model_UDESC_2020.bbl
-INPUT .\abntex2-model_UDESC_2020.brf
-INPUT .\abntex2-model_UDESC_2020.brf
-INPUT abntex2-model_UDESC_2020.brf
-INPUT .\abntex2-model_UDESC_2020.brf
-INPUT .\abntex2-model_UDESC_2020.brf
-OUTPUT abntex2-model_UDESC_2020.brf
+INPUT .\Trabalho final.bbl
+INPUT .\Trabalho final.bbl
+INPUT Trabalho final.bbl
+INPUT .\Trabalho final.brf
+INPUT .\Trabalho final.brf
+INPUT Trabalho final.brf
+INPUT .\Trabalho final.brf
+INPUT .\Trabalho final.brf
+OUTPUT Trabalho final.brf
 INPUT .\PosTextuais\Glossario.tex
 INPUT .\PosTextuais\Glossario.tex
 OUTPUT PosTextuais\Glossario.aux
 INPUT .\PosTextuais\Glossario.tex
 INPUT .\PosTextuais\Glossario.tex
 INPUT PosTextuais\Glossario.tex
-OUTPUT abntex2-model_UDESC_2020.lof
-OUTPUT abntex2-model_UDESC_2020.lot
-OUTPUT abntex2-model_UDESC_2020.toc
-INPUT abntex2-model_UDESC_2020.aux
+INPUT .\PosTextuais\Apendices.tex
+INPUT .\PosTextuais\Apendices.tex
+OUTPUT PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Apendices.tex
+INPUT .\PosTextuais\Apendices.tex
+INPUT PosTextuais\Apendices.tex
+INPUT .\PosTextuais\Anexos.tex
+INPUT .\PosTextuais\Anexos.tex
+OUTPUT PosTextuais\Anexos.aux
+INPUT .\PosTextuais\Anexos.tex
+INPUT .\PosTextuais\Anexos.tex
+INPUT PosTextuais\Anexos.tex
+INPUT .\PosTextuais\IndiceRemissivo.tex
+INPUT .\PosTextuais\IndiceRemissivo.tex
+OUTPUT PosTextuais\IndiceRemissivo.aux
+INPUT .\PosTextuais\IndiceRemissivo.tex
+INPUT .\PosTextuais\IndiceRemissivo.tex
+INPUT PosTextuais\IndiceRemissivo.tex
+OUTPUT Trabalho final.lof
+OUTPUT Trabalho final.lot
+OUTPUT Trabalho final.toc
+INPUT Trabalho final.aux
 INPUT .\PreTextuais\Capa.aux
 INPUT .\PreTextuais\Capa.aux
 INPUT PreTextuais\Capa.aux
@@ -810,8 +839,17 @@ INPUT Textuais\Capitulo01.aux
 INPUT .\PosTextuais\Glossario.aux
 INPUT .\PosTextuais\Glossario.aux
 INPUT PosTextuais\Glossario.aux
-INPUT .\abntex2-model_UDESC_2020.brf
-INPUT .\abntex2-model_UDESC_2020.brf
+INPUT .\PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Apendices.aux
+INPUT PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Anexos.aux
+INPUT .\PosTextuais\Anexos.aux
+INPUT PosTextuais\Anexos.aux
+INPUT .\PosTextuais\IndiceRemissivo.aux
+INPUT .\PosTextuais\IndiceRemissivo.aux
+INPUT PosTextuais\IndiceRemissivo.aux
+INPUT .\Trabalho final.brf
+INPUT .\Trabalho final.brf
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
