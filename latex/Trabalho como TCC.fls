@@ -1,7 +1,7 @@
 PWD c:\Users\guian\Econometria 3\trabalho-final\latex
 INPUT C:\Users\guian\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\guian\Econometria 3\trabalho-final\latex\abntex2-model_UDESC_2020.tex
-OUTPUT abntex2-model_UDESC_2020.log
+INPUT c:\Users\guian\Econometria 3\trabalho-final\latex\Trabalho como TCC.tex
+OUTPUT Trabalho como TCC.log
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
@@ -516,15 +516,17 @@ INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
-OUTPUT abntex2-model_UDESC_2020.pdf
+OUTPUT Trabalho como TCC.pdf
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\libraries\tikzlibraryexternal.code.tex
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\libraries\tikzlibraryexternal.code.tex
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzexternalshared.code.tex
-OUTPUT abntex2-model_UDESC_2020.idx
-INPUT .\abntex2-model_UDESC_2020.aux
-INPUT .\abntex2-model_UDESC_2020.aux
-INPUT abntex2-model_UDESC_2020.aux
+INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+OUTPUT Trabalho como TCC.idx
+INPUT .\Trabalho como TCC.aux
+INPUT .\Trabalho como TCC.aux
+INPUT Trabalho como TCC.aux
 INPUT .\PreTextuais\Capa.aux
 INPUT .\PreTextuais\Capa.aux
 INPUT PreTextuais\Capa.aux
@@ -555,7 +557,16 @@ INPUT Textuais\Capitulo01.aux
 INPUT .\PosTextuais\Glossario.aux
 INPUT .\PosTextuais\Glossario.aux
 INPUT PosTextuais\Glossario.aux
-OUTPUT abntex2-model_UDESC_2020.aux
+INPUT .\PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Apendices.aux
+INPUT PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Anexos.aux
+INPUT .\PosTextuais\Anexos.aux
+INPUT PosTextuais\Anexos.aux
+INPUT .\PosTextuais\IndiceRemissivo.aux
+INPUT .\PosTextuais\IndiceRemissivo.aux
+INPUT PosTextuais\IndiceRemissivo.aux
+OUTPUT Trabalho como TCC.aux
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -667,12 +678,12 @@ OUTPUT PreTextuais\Listas.aux
 INPUT .\PreTextuais\Listas.tex
 INPUT .\PreTextuais\Listas.tex
 INPUT PreTextuais\Listas.tex
-INPUT .\abntex2-model_UDESC_2020.lof
-INPUT .\abntex2-model_UDESC_2020.lof
-INPUT abntex2-model_UDESC_2020.lof
-INPUT .\abntex2-model_UDESC_2020.lot
-INPUT .\abntex2-model_UDESC_2020.lot
-INPUT abntex2-model_UDESC_2020.lot
+INPUT .\Trabalho como TCC.lof
+INPUT .\Trabalho como TCC.lof
+INPUT Trabalho como TCC.lof
+INPUT .\Trabalho como TCC.lot
+INPUT .\Trabalho como TCC.lot
+INPUT Trabalho como TCC.lot
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
@@ -707,9 +718,11 @@ OUTPUT PreTextuais\Sumario.aux
 INPUT .\PreTextuais\Sumario.tex
 INPUT .\PreTextuais\Sumario.tex
 INPUT PreTextuais\Sumario.tex
-INPUT .\abntex2-model_UDESC_2020.toc
-INPUT .\abntex2-model_UDESC_2020.toc
-INPUT abntex2-model_UDESC_2020.toc
+INPUT .\Trabalho como TCC.toc
+INPUT .\Trabalho como TCC.toc
+INPUT Trabalho como TCC.toc
+INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
+INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
 INPUT .\Textuais\Capitulo01.tex
 INPUT .\Textuais\Capitulo01.tex
 OUTPUT Textuais\Capitulo01.aux
@@ -761,25 +774,43 @@ INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.v
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT .\abntex2-model_UDESC_2020.bbl
-INPUT .\abntex2-model_UDESC_2020.bbl
-INPUT abntex2-model_UDESC_2020.bbl
-INPUT .\abntex2-model_UDESC_2020.brf
-INPUT .\abntex2-model_UDESC_2020.brf
-INPUT abntex2-model_UDESC_2020.brf
-INPUT .\abntex2-model_UDESC_2020.brf
-INPUT .\abntex2-model_UDESC_2020.brf
-OUTPUT abntex2-model_UDESC_2020.brf
+INPUT .\Trabalho como TCC.bbl
+INPUT .\Trabalho como TCC.bbl
+INPUT Trabalho como TCC.bbl
+INPUT .\Trabalho como TCC.brf
+INPUT .\Trabalho como TCC.brf
+INPUT Trabalho como TCC.brf
+INPUT .\Trabalho como TCC.brf
+INPUT .\Trabalho como TCC.brf
+OUTPUT Trabalho como TCC.brf
 INPUT .\PosTextuais\Glossario.tex
 INPUT .\PosTextuais\Glossario.tex
 OUTPUT PosTextuais\Glossario.aux
 INPUT .\PosTextuais\Glossario.tex
 INPUT .\PosTextuais\Glossario.tex
 INPUT PosTextuais\Glossario.tex
-OUTPUT abntex2-model_UDESC_2020.lof
-OUTPUT abntex2-model_UDESC_2020.lot
-OUTPUT abntex2-model_UDESC_2020.toc
-INPUT abntex2-model_UDESC_2020.aux
+INPUT .\PosTextuais\Apendices.tex
+INPUT .\PosTextuais\Apendices.tex
+OUTPUT PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Apendices.tex
+INPUT .\PosTextuais\Apendices.tex
+INPUT PosTextuais\Apendices.tex
+INPUT .\PosTextuais\Anexos.tex
+INPUT .\PosTextuais\Anexos.tex
+OUTPUT PosTextuais\Anexos.aux
+INPUT .\PosTextuais\Anexos.tex
+INPUT .\PosTextuais\Anexos.tex
+INPUT PosTextuais\Anexos.tex
+INPUT .\PosTextuais\IndiceRemissivo.tex
+INPUT .\PosTextuais\IndiceRemissivo.tex
+OUTPUT PosTextuais\IndiceRemissivo.aux
+INPUT .\PosTextuais\IndiceRemissivo.tex
+INPUT .\PosTextuais\IndiceRemissivo.tex
+INPUT PosTextuais\IndiceRemissivo.tex
+OUTPUT Trabalho como TCC.lof
+OUTPUT Trabalho como TCC.lot
+OUTPUT Trabalho como TCC.toc
+INPUT Trabalho como TCC.aux
 INPUT .\PreTextuais\Capa.aux
 INPUT .\PreTextuais\Capa.aux
 INPUT PreTextuais\Capa.aux
@@ -810,8 +841,17 @@ INPUT Textuais\Capitulo01.aux
 INPUT .\PosTextuais\Glossario.aux
 INPUT .\PosTextuais\Glossario.aux
 INPUT PosTextuais\Glossario.aux
-INPUT .\abntex2-model_UDESC_2020.brf
-INPUT .\abntex2-model_UDESC_2020.brf
+INPUT .\PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Apendices.aux
+INPUT PosTextuais\Apendices.aux
+INPUT .\PosTextuais\Anexos.aux
+INPUT .\PosTextuais\Anexos.aux
+INPUT PosTextuais\Anexos.aux
+INPUT .\PosTextuais\IndiceRemissivo.aux
+INPUT .\PosTextuais\IndiceRemissivo.aux
+INPUT PosTextuais\IndiceRemissivo.aux
+INPUT .\Trabalho como TCC.brf
+INPUT .\Trabalho como TCC.brf
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\guian\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb

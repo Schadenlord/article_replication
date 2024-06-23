@@ -1,0 +1,116 @@
+\documentclass[
+	article,
+	12pt,
+	oneside,
+	a4paper,
+	english,
+	brazil,
+	sumario=tradicional
+]{abntex2}
+
+% Pacotes fundamentais
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{lscape}
+\usepackage{pdflscape}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{float}
+\usepackage{microtype}
+\usepackage{multirow}
+\usepackage[normalem]{ulem}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage[alf,abnt-etal-cite=3,abnt-etal-list=0]{abntex2cite}
+\usepackage{hyperref}
+\usepackage{tabularx} % For tabularx environment
+\usepackage{booktabs} % For \toprule, \midrule, and \bottomrule
+\usepackage{caption} % For \captionsetup
+\usepackage{makecell}
+\newcommand{\theforeigntitle}[1]{\def\@theforeigntitle{#1}}
+
+% Configurações de aparência do PDF final
+\definecolor{blue}{RGB}{41,5,195}
+\hypersetup{
+	pdftitle={Trabalho final de Econometria III - Replicação do artigo "Political systems, regime memory, and economic freedom"},
+	pdfauthor={Bruno Francisco Schaden},
+	pdfsubject={Modelo de artigo científico com abnTeX2},
+	pdfcreator={LaTeX with abnTeX2},
+	pdfkeywords={abnt}{latex}{abntex}{abntex2}{artigo científico},
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue,
+	filecolor=magenta,
+	urlcolor=blue,
+	bookmarksdepth=4
+}
+
+% Configurações de margens
+\setlrmarginsandblock{3cm}{2cm}{*}
+\setulmarginsandblock{3cm}{2cm}{*}
+\checkandfixthelayout
+
+% Espaçamentos entre linhas e parágrafos
+\setlength{\parindent}{1.5cm}
+\setlength{\parskip}{0.2cm}
+\OnehalfSpacing
+
+% Informações de dados para CAPA e FOLHA DE ROSTO
+\titulo{Trabalho final de Econometria III - Replicação do artigo "Political systems, regime memory, and economic freedom"}
+\autor{Bruno Francisco Schaden}
+\local{Florianópolis}
+\data{2024}
+
+\begin{document}
+
+\frenchspacing
+
+% ELEMENTOS PRÉ-TEXTUAIS
+\maketitle
+\selectlanguage{english}
+
+% Resumo em inglês
+	\begin{resumoumacoluna}
+	\noindent
+	The article "Political systems, regime memory and economic freedom" by Peter Calcagno, Beatriz Maldonado, Todd Nesbit and Mary Frances Zeager investigates the influence of the memory of past regimes on a country's economic freedom. The authors develop an innovative measure of regime memory and analyze the generational effect of previous regimes on economic freedom. Through a study of 144 countries between 1970 and 2015, the article highlights that regime memory can promote improvements in economic freedom in historically democratic nations, while discouraging it in countries with an autocratic history. These results contribute to the understanding of how past culture, traditions and institutions impact current economic policies.
+	
+	\textbf{Keywords:} Political systems. Regime memory. Economic freedom. Culture. Institutions.
+	
+	\textbf{JEL Classification: P16, P48, N40, O43}
+	\end{resumoumacoluna}
+
+\newpage
+
+\selectlanguage{brazil}
+% Resumo em português
+\renewcommand{\resumoname}{Resumo}
+\begin{resumoumacoluna}
+\begin{otherlanguage*}{brazil}
+   \noindent 
+   O artigo "Sistemas políticos, memória de regime e liberdade econômica" de Peter Calcagno, Beatriz Maldonado, Todd Nesbit e Mary Frances Zeager investiga a influência da memória de regimes passados na liberdade econômica de um país. Os autores desenvolvem uma medida inovadora de memória de regime e analisam o efeito geracional de regimes anteriores na liberdade econômica. Por meio de um estudo com 144 países entre 1970 e 2015, o artigo destaca que a memória de regime pode promover melhorias na liberdade econômica em nações historicamente democráticas, enquanto desencoraja em países com histórico autocrático. Esses resultados contribuem para a compreensão de como a cultura, as tradições e as instituições passadas impactam as políticas econômicas atuais.   
+   
+   \textbf{Palavras-chave}: Sistemas políticos. Memória de regime. Liberdade Econômica. Cultura. Instituições.
+   
+   \textbf{Classificação JEL: P16, P48, N40, O43}
+ \end{otherlanguage*}  
+\end{resumoumacoluna}
+
+\newpage
+
+
+% ELEMENTOS TEXTUAIS
+\textual
+
+\include{Textuais/Capitulo01}
+
+% ELEMENTOS PÓS-TEXTUAIS
+\renewcommand{\refname}{Referências}
+\bibliographystyle{abntex2-alf}
+\bibliography{abntex2-ref_UDESC_2020}
+
+\end{document}
