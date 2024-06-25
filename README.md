@@ -4,9 +4,9 @@
 
 Este repositório contém os detalhes e materiais relacionados ao trabalho final da disciplina de Econometria 3.
 
-## Análise em "Completo - Final"
+## Análise em "Trabalho como Artigo"
 
-A análise completa e final do trabalho pode ser encontrada no arquivo "Completo - Final.pdf". Neste documento, são apresentados os resultados, discussões e conclusões do estudo.
+A análise completa e final do trabalho pode ser encontrada no arquivo "Trabalho como Artigo.pdf". Neste documento, são apresentados os resultados, discussões e conclusões do estudo.
 
 ## Trabalho Original
 
@@ -25,11 +25,7 @@ O código original em Stata utilizado para replicar os resultados do trabalho es
 Para utilizar este repositório, siga as instruções abaixo:
 
 1. Clone este repositório em sua máquina local.
-2. Abra o arquivo "Completo - Final.pdf" para acessar a análise completa do trabalho.
+2. Abra o arquivo "Completo - Final.ipynb" para acessar a análise completa do trabalho.
 3. Consulte o arquivo "Contemporary Economic Policy.pdf" para obter informações sobre o trabalho original.
 4. Utilize o arquivo "Replication data.dta" para replicar os resultados e realizar análises adicionais.
 5. Execute o código em Stata presente no arquivo "Replication_code.do" para reproduzir os resultados do trabalho.
-
-## Contribuição
-
-Se você deseja contribuir para este projeto, sinta-se à vontade para enviar pull requests. Serão bem-vindas melhorias, correções de bugs e novas análises relacionadas ao trabalho.
