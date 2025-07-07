@@ -1,31 +1,90 @@
-# Trabalho Final
+# Final Project – Econometrics III
 
-## Descrição
+Welcome to the repository for the final project of Econometrics III. This project is a rigorous replication and extension of a published empirical article, designed to demonstrate advanced econometric modeling, critical analysis, and best practices in reproducible research.
 
-Este repositório contém os detalhes e materiais relacionados ao trabalho final da disciplina de Econometria 3.
+---
 
-## Análise em "Trabalho como Artigo"
+## 📚 Overview
 
-A análise completa e final do trabalho pode ser encontrada no arquivo "Trabalho como Artigo.pdf". Neste documento, são apresentados os resultados, discussões e conclusões do estudo.
+This repository contains:
 
-## Trabalho Original
+- **Replicated Article Analysis:** A scholarly report presenting the replication results, additional insights, and methodological commentary.
+- **Original Reference Article:** The published paper that serves as the benchmark for replication.
+- **Replication Data:** The dataset utilized for all analyses, provided in Stata format for seamless integration with econometric software.
+- **Codebase:** Stata `.do` files and Jupyter Notebooks for full transparency and reproducibility of all empirical results.
 
-O trabalho original que serviu de base para este estudo está disponível no arquivo "Contemporary Economic Policy.pdf". Este documento é uma referência importante para entender o contexto e a motivação por trás da pesquisa.
+---
 
-## Dados de Replicação
+## 🗂️ Repository Structure
 
-Os dados utilizados neste trabalho estão disponíveis no arquivo "Replication data.dta". Esses dados são essenciais para reproduzir os resultados e realizar análises adicionais.
+- `Trabalho como Artigo.pdf`: The main article, written in academic format, detailing objectives, methodology, results, and critical discussion.
+- `Contemporary Economic Policy.pdf`: The original reference article.
+- `Replication data.dta`: Stata-formatted dataset for replication.
+- `Replication_code.do`: Stata code for exact replication of the original empirical results.
+- `Completo - Final.ipynb`: Jupyter Notebook providing stepwise analysis, data visualization, and supplementary econometric commentary.
 
-## Código Original em Stata
+---
 
-O código original em Stata utilizado para replicar os resultados do trabalho está disponível no arquivo "Replication_code.do". Este código contém as instruções necessárias para executar as análises e gerar os resultados apresentados no trabalho.
+## 🚀 Getting Started
 
-## Como utilizar este repositório
+### 1. Clone the Repository
 
-Para utilizar este repositório, siga as instruções abaixo:
+```bash
+git clone https://github.com/Schadenlord/article_replication.git
+cd article_replication
+```
 
-1. Clone este repositório em sua máquina local.
-2. Abra o arquivo "Completo - Final.ipynb" para acessar a análise completa do trabalho.
-3. Consulte o arquivo "Contemporary Economic Policy.pdf" para obter informações sobre o trabalho original.
-4. Utilize o arquivo "Replication data.dta" para replicar os resultados e realizar análises adicionais.
-5. Execute o código em Stata presente no arquivo "Replication_code.do" para reproduzir os resultados do trabalho.
+### 2. Reproduce the Results
+
+- **Stata:**  
+  Open `Replication_code.do` in Stata and execute it using the provided `Replication data.dta` to reproduce the main tables and results from the reference article.
+- **Jupyter Notebook:**  
+  Launch `Completo - Final.ipynb` to explore an interactive, annotated walkthrough of the replication process, including additional robustness checks and advanced diagnostics.
+
+### 3. Review the Documentation
+
+- **Read** `Trabalho como Artigo.pdf` for a comprehensive narrative of the replication process and expanded analysis.
+- **Compare** with `Contemporary Economic Policy.pdf` to assess fidelity and methodological choices.
+
+---
+
+## 🧠 Technical Notes
+
+This project assumes familiarity with:
+
+- **Panel Data Models**: Fixed and random effects, specification testing (e.g., Hausman test), and implications for causal inference.
+- **Robustness Checks**: Heteroskedasticity-consistent errors, omitted variable diagnostics, and sensitivity analyses.
+- **Reproducibility**: All code is provided for transparent replication and extension. Notebooks are heavily annotated for clarity.
+
+**Key best practices implemented:**
+- Version control and literate programming via Jupyter Notebooks.
+- Clear separation between data, scripts, and written analysis.
+- All tables and figures are generated dynamically from code, ensuring consistency and reproducibility.
+
+---
+
+## ⚙️ Requirements
+
+- **Stata** (for `.do` execution)
+- **Python 3.x** with recommended libraries:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `statsmodels`
+  - `jupyter`
+- Optional: LaTeX distribution (for compiling academic reports)
+
+---
+
+## 📜 License & Attribution
+
+This project is for academic and educational purposes only.  
+Please cite the original article when using these materials for derivative works.
+
+---
+
+## 💬 Contact
+
+For questions, suggestions, or collaboration, open an Issue or contact via GitHub.
+
+---
